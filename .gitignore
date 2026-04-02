@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# Build & Output
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Logs & Temp
+*.log
+.tmp/
+.temp/
+
+# IDE
+.vscode/
+.idea/
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project notes (symlink to vault)
+.project-notes
